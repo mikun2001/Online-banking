@@ -1,0 +1,37 @@
+{
+  "name": "project-boiler",
+  "version": "0.1.0",
+  "main": "pages",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@feathersjs/authentication-client": "^4.5.4",
+    "@feathersjs/feathers": "^4.5.3",
+    "@feathersjs/rest-client": "^4.5.4",
+    "@material-ui/core": "^4.11.4",
+    "@material-ui/icons": "^4.11.2",
+    "@material-ui/lab": "^4.0.0-alpha.56",
+    "@material-ui/styles": "^4.11.4",
+    "aos": "^2.3.4",
+    "axios": "^0.19.2",
+    "clsx": "latest",
+    "cookie-storage": "^6.0.0",
+    "laco": "^1.2.1",
+    "laco-react": "^1.1.0",
+    "next": "10.2.0",
+    "next-compose-plugins": "^2.2.1",
+    "next-optimized-images": "^2.6.2",
+    "notistack": "^1.0.7",
+    "react": "17.0.2",
+    "react-client-captcha": "^1.0.3",
+    "react-confirm": "^0.1.24",
+    "react-cropper": "^1.3.0",
+    "react-dom": "17.0.2",
+    
+    "tsparticles": "^1.31.1"
+  }
+}

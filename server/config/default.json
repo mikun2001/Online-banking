@@ -1,0 +1,38 @@
+{
+  "host": "localhost",
+  "port": 3030,
+  "public": "../public/",
+  "paginate": {
+    "default": 10,
+    "max": 50
+  },
+  "authentication": {
+    "entity": "user",
+    "service": "user",
+    "secret": "+oo9+eJub+CHuN5mJhy8YySuyiY=",
+    "authStrategies": [
+      "jwt",
+      "email",
+      "customer"
+    ],
+    "jwtOptions": {
+      "header": {
+        "typ": "access"
+      },
+      "audience": "https://yourdomain.com",
+      "issuer": "feathers",
+      "algorithm": "HS256",
+      "expiresIn": "365d"
+    },
+    "email": {
+        "usernameField": "email",
+        "passwordField": "password"
+    },
+    "customer": {
+        "usernameField": "customerId",
+        "passwordField": "password"
+    }
+  },
+  "mongodb": "MONGO_URL",
+  "CREDENTIALS_PATH": "GOOGLE_APPLICATION_CREDENTIALS"
+}
